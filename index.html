@@ -3,10 +3,73 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Ô Capitole, bistrot occitan & grill à Toulouse, à 50 mètres de la place du Capitole. Cassoulet, saucisse de Toulouse, magret et produits de circuit court.">
-  <meta name="theme-color" content="#25251f">
+  
+  <!-- SEO de base -->
   <title>Ô Capitole — Bistro Occitan & Grill à Toulouse</title>
+  <meta name="description" content="Ô Capitole, bistrot occitan & grill à Toulouse, à 50 mètres de la place du Capitole. Cassoulet au feu de bois, saucisse de Toulouse et produits du terroir en circuit court.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.ocapitole.fr/">
+  <meta name="theme-color" content="#25251f">
+
+  <!-- Open Graph / Social Media (SMO - Facebook, WhatsApp, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.ocapitole.fr/">
+  <meta property="og:title" content="Ô Capitole — Bistro Occitan & Grill à Toulouse">
+  <meta property="og:description" content="Cuisine occitane et grillades au feu de bois au cœur de Toulouse, à deux pas du Capitole.">
+  <meta property="og:image" content="https://www.ocapitole.fr/assets/images/o_capitole.webp">
+  <meta property="og:locale" content="fr_FR">
+
+  <!-- Twitter Cards (SMO) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ô Capitole — Bistro Occitan & Grill à Toulouse">
+  <meta name="twitter:description" content="Cuisine occitane et grillades au feu de bois au cœur de Toulouse.">
+  <meta name="twitter:image" content="https://www.ocapitole.fr/assets/images/o_capitole.webp">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+  <!-- Style CSS -->
   <link rel="stylesheet" href="assets/style.css">
+
+  <!-- Données structurées Schema.org pour Restaurant Local -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Ô Capitole",
+    "image": "https://www.ocapitole.fr/assets/images/o_capitole.webp",
+    "url": "https://www.ocapitole.fr/",
+    "telephone": "+33500000000",
+    "priceRange": "€€",
+    "servesCuisine": "Occitane, Sud-Ouest, Grillades",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "12 Rue du Taur",
+      "addressLocality": "Toulouse",
+      "postalCode": "31000",
+      "addressCountry": "FR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6047,
+      "longitude": 1.4442
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "11:00",
+        "closes": "13:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "18:30",
+        "closes": "22:00"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 <header class="site-header">
